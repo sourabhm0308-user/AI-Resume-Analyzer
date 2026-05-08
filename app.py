@@ -5,8 +5,8 @@ import sys
 # Ensure custom modules can be imported
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from ui.components import load_css
-from utils.helpers import init_session_state
+import load_css
+import init_session_state
 
 st.set_page_config(
     page_title="AI Resume Analyzer",
